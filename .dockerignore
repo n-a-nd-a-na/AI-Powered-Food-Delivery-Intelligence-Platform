@@ -1,0 +1,12 @@
+.git
+.venv
+venv
+env
+delivery_env
+__pycache__
+*.pyc
+.ipynb_checkpoints
+mlruns
+.mlflow
+.vscode
+.idea

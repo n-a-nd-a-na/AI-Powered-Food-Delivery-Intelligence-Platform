@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+heart_env/
+mlruns/
+mlflow.db
+.vscode/
+.ipynb_checkpoints/
+model/cc.en.300.vec
