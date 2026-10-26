@@ -1,5 +1,9 @@
 # AI-Powered Food Delivery Intelligence Platform
 
+🚀 **Live Demo:** [Food Delivery Intelligence Platform](https://food-delivery-frontend-w40j.onrender.com)
+
+📚 **API Documentation:** [FastAPI Docs](https://food-delivery-backend-ijvg.onrender.com/docs)
+
 An end-to-end **Deep Learning-based Food Delivery Intelligence Platform** that provides predictions and insights for food delivery operations.
 
 The project combines three different deep learning tasks into a single application:
