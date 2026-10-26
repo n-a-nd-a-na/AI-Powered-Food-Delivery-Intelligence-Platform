@@ -1,14 +1,14 @@
-# 🍔 AI-Powered Food Delivery Intelligence Platform
+# AI-Powered Food Delivery Intelligence Platform
 
 An end-to-end Deep Learning project for food demand prediction, delivery time prediction, and customer review sentiment analysis.
 
-## 🚀 Live Demo
+## Live Demo
 
 * **Frontend:** [Streamlit App](https://food-delivery-frontend-w40j.onrender.com/)
 * **Backend:** [FastAPI](https://food-delivery-backend-ijvg.onrender.com)
 * **API Documentation:** [Swagger UI](https://food-delivery-backend-ijvg.onrender.com/docs)
 
-## 📌 Project Overview
+## Project Overview
 
 This project uses Deep Learning to solve three food delivery problems:
 
@@ -16,7 +16,7 @@ This project uses Deep Learning to solve three food delivery problems:
 2. **Delivery Time Prediction** – Uses an Artificial Neural Network (ANN) to estimate delivery time.
 3. **Review Sentiment Analysis** – Uses FastText embeddings and LSTM to classify customer reviews as Positive, Neutral, or Negative.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Pandas, NumPy
@@ -29,11 +29,11 @@ This project uses Deep Learning to solve three food delivery problems:
 * Docker, Docker Compose
 * Render
 
-## 📊 Project Workflow
+## Project Workflow
 
 Data Collection → Data Preprocessing → EDA → Model Training → Model Evaluation → API Development → Streamlit Frontend → Docker → Render Deployment
 
-## ✨ Key Features
+## Key Features
 
 * Food demand forecasting
 * Delivery time prediction
@@ -45,7 +45,7 @@ Data Collection → Data Preprocessing → EDA → Model Training → Model Eval
 * Interactive Streamlit frontend
 * Docker-based deployment
 
-## 🔌 API Endpoints
+## API Endpoints
 
 | Method | Endpoint             | Description              |
 | ------ | -------------------- | ------------------------ |
@@ -54,7 +54,7 @@ Data Collection → Data Preprocessing → EDA → Model Training → Model Eval
 | POST   | `/predict/delivery`  | Predict delivery time    |
 | POST   | `/predict/sentiment` | Analyze review sentiment |
 
-## 🐳 Run Locally
+## Run Locally
 
 Clone the repository:
 
@@ -74,21 +74,21 @@ Run using Docker Compose:
 docker compose up --build
 ```
 
-## ☁️ Deployment
+## Deployment
 
 The frontend and backend are deployed as separate Docker-based services on Render.
 
 * Frontend: Streamlit
 * Backend: FastAPI
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Improve prediction accuracy.
 * Add model monitoring.
 * Automate model retraining.
 * Improve API validation and error handling.
 
-## 👩‍💻 Author
+## Author
 
 **Nandana Jayan**
 
