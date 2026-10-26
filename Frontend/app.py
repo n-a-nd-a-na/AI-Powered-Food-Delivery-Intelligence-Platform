@@ -74,7 +74,7 @@ if st.session_state.get('page') == 'demand':
         'weather': weather,
         'traffic_level': traffic_level}
 
-        response = requests.post('http://backend:8000/predict/demand',json = data)
+        response = requests.post('https://food-delivery-backend-ijvg.onrender.com/predict/demand',json = data)
 
         if response.status_code == 200:
 
@@ -122,7 +122,7 @@ if st.session_state.get('page') == 'delivery':
                 'traffic_level': traffic,
                 'weather': weather}
 
-        response = requests.post('http://backend:8000/predict/delivery',json = data)
+        response = requests.post('https://food-delivery-backend-ijvg.onrender.com/predict/delivery',json = data)
 
         if response.status_code == 200:
 
@@ -146,7 +146,7 @@ if st.session_state.get('page') == 'sentiment':
 
         data = {'review': review}
 
-        response = requests.post('http://backend:8000/predict/sentiment',json = data)
+        response = requests.post('https://food-delivery-backend-ijvg.onrender.com/predict/sentiment',json = data)
 
         if response.status_code == 200:
 
